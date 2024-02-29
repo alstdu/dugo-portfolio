@@ -6,6 +6,8 @@
     <title>Portfolio Home</title>
 </head>
 <body>
-    
+    <header>
+        <?php include_once("menu.html"); ?>
+    </header>
 </body>
 </html>
