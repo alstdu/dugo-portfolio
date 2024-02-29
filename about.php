@@ -22,11 +22,13 @@
         </div>
         <h2>Let's Connect</h2>
         <div class="lets-connect">
-            <div class="icons">
+            <div class="social-icons">
             </div>
             <div class="handles">
             </div>
         </div>
     </main>
+    <p>Think I'd be a good fit for you or a friend? Download my resume!</p>
+    <button class="download-button">Download</button>
 </body>
 </html>
