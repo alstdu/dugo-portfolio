@@ -11,7 +11,7 @@
         <?php include_once("menu.html"); ?>
     </header>
     <div class="desktop">
-        <img class="portrait" src="./assets/images/BCIT DT-10.jpg">
+        <img class="portrait" src="./assets/images/BCIT DT-10.png">
         <main class='glass-effect'>
             <div class='about-me'>
             <h1>About Me</h1>
