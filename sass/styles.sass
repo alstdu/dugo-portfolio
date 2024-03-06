@@ -1,3 +1,5 @@
+// TODO: give better name
+// @import for font import
 $font-white: #FFF
 $button-color: #DFC5A7
 
@@ -12,6 +14,9 @@ body
         color: $font-white
 
 nav
+    .logo
+        height: 75px
+        width: 75px
     ul
         display: flex
         flex-direction: row
@@ -31,11 +36,11 @@ p
     margin: 0
     padding: 1em
 
-.glass-effect 
-    background: rgba(255, 255, 255, 0.1) 
-    border-radius: 1em 
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) 
-    backdrop-filter: blur(5px) 
+.glass-effect
+    background: rgba(255, 255, 255, 0.1)
+    border-radius: 1em
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+    backdrop-filter: blur(5px)
     border: 1px solid rgba(255, 255, 255, 0.18)
 
 main
@@ -46,7 +51,6 @@ main
     flex-direction: column
     justify-content: center
     align-items: center
-
     p
         color: $font-white
 
@@ -59,10 +63,30 @@ main
     width: 7.5em
     padding: 1em
 
+.portrait
+    max-height: 300px
+    max-width: 200px
+
 @media screen and ( min-width: 486px )
+    .desktop
+        display: flex
+        justify-content: space-around
     nav
         ul
             justify-content: right
 
             li
                 padding: 1em
+    main
+        display: flex
+        width: 50%
+        h1, h2
+            margin: 0
+    .portrait
+        max-height: 500px
+        max-width: 300px
+    .about-me, .lets-connect
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
