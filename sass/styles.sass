@@ -39,7 +39,7 @@ p
 
 .glass-effect
     background: rgba(255, 255, 255, 0.1)
-    border-radius: 1em
+    border-radius: 5em
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
     backdrop-filter: blur(5px)
     border: 1px solid rgba(255, 255, 255, 0.18)
@@ -69,6 +69,8 @@ main
     max-width: 200px
 
 @media screen and ( min-width: 486px )
+    body
+        margin: 0
     .desktop
         display: flex
         justify-content: space-around
@@ -76,6 +78,7 @@ main
         display: flex
         flex-direction: row
         justify-content: space-between
+        padding: .5em
         ul
             justify-content: right
             li
