@@ -19,16 +19,20 @@
                 <p>Location: New Westminster, BC</p>
                 <p>Hobbies: Video Games, Yoga, Running my bubble tea Instagram page</p>
                 <p>D&D Homebrew: Dryad</p>
-                <p>Hidden Talent: Able to recognize many spoken languages</p>
+                <p>Languages: English - Native | French - Beginner | Mandarin - Beginner</p>
             </div>
             <div class="lets-connect">
                 <h2>Let's Connect</h2>
                 <div class="connect-columns">
                     <div class="social-icons">
+                        <img src="./assets/images/linkedinlogo.svg">
                         <img src="./assets/images/instagramlogo.svg">
+                        <img src="./assets/images/githublogo.svg">
                     </div>
                     <div class="handles">
+                        <p>Lexi Dugo</p>
                         <p>lexidugo</p>
+                        <p>alstdu</p>
                     </div>
                 </div>
             </div>
