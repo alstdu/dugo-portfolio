@@ -23,9 +23,13 @@
             </div>
             <div class="lets-connect">
                 <h2>Let's Connect</h2>
-                <div class="social-icons">
-                </div>
-                <div class="handles">
+                <div class="connect-columns">
+                    <div class="social-icons">
+                        <img src="./assets/images/instagramlogo.svg">
+                    </div>
+                    <div class="handles">
+                        <p>lexidugo</p>
+                    </div>
                 </div>
             </div>
         </main>

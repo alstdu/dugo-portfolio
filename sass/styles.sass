@@ -2,6 +2,8 @@
 // @import for font import
 $font-white: #FFF
 $button-color: #DFC5A7
+$portrait-aura1: #A0DEEA
+$portrait-aura2: #F8B266
 
 *
     box-sizing: border-box
@@ -38,11 +40,11 @@ p
     padding: 1em
 
 .glass-effect
-    background: rgba(255, 255, 255, 0.1)
+    background: linear-gradient(95deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 38%, rgba(255,255,255,0.5) 100%)
     border-radius: 5em
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
     backdrop-filter: blur(5px)
-    border: 1px solid rgba(255, 255, 255, 0.18)
+    border: 1px solid rgba(255, 255, 255, 0.2)
 
 main
     min-width: min-content
@@ -55,6 +57,12 @@ main
     p
         color: $font-white
 
+.connect-columns
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
 .download-button
     background-color: $button-color
     border-radius: 40px
@@ -65,9 +73,12 @@ main
     padding: 1em
 
 .portrait
+    border-radius: 200px
     max-height: 300px
     max-width: 200px
-
+    margin: .5em
+    filter: drop-shadow(0 0 2rem $portrait-aura2) drop-shadow(0 0 4rem $portrait-aura1)
+   
 @media screen and ( min-width: 486px )
     body
         margin: 0
@@ -88,6 +99,7 @@ main
         width: 50%
         h1, h2
             margin: 0
+                bottom: .5em
     .portrait
         max-height: 500px
         max-width: 300px
