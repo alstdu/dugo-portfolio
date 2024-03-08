@@ -40,7 +40,9 @@
     </div>
     <div class="resume">
         <p>Think I'd be a good fit for you or a friend? Download my resume!</p>
-        <button class="download-button">Download</button>
+        <button class="download-button" id="downloadButton"><a href="https://profile.indeed.com/p/alexisd-fdpr3c4">Download</a></button>
     </div>
+    <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/print.js"></script>
 </body>
 </html>
