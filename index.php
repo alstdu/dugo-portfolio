@@ -20,8 +20,10 @@
         </nav>
     </header>
     <section id="home">
-    <h2>Hi! I'm Lexi Dugo. A Front End Dev</h2>
+    <div id="canvasTextContainer">
+    <h2 class="home-header">Hi! I'm Lexi Dugo. A Front End Dev and New Media Designer</h2>
     <canvas id="canvas3d"></canvas>
+    </div>
     </section>
     <section id="projects">
     <h2>My Projects</h2>
