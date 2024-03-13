@@ -20,7 +20,8 @@
         </nav>
     </header>
     <section id="home">
-    <h2>Big FU 3D element Placeholder</h2>
+    <h2>Hi! I'm Lexi Dugo. A Front End Dev</h2>
+    <canvas id="canvas3d"></canvas>
     </section>
     <section id="projects">
     <h2>My Projects</h2>
@@ -28,5 +29,6 @@
     <section id="mySkills">
     <h2>Skills</h2>
     </section>
+    <script type="module" src="./dist/scripts.bundle.js"></script>
 </body>
 </html>
