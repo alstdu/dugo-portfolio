@@ -2,8 +2,10 @@
 * 
     box-sizing: border-box
 html
-    overflow: hidden
     scroll-behavior: smooth
+    a
+        text-decoration: none
+        color: unset
 #home
     #canvas3d
         height: 500px
@@ -25,7 +27,7 @@ html
         padding-left: 0
         font-size: 2.25rem
 #home, #projects, #mySkills
-    height: 800px
+    min-height: 800px
     display: flex
     flex-direction: column
     align-items: center
@@ -43,17 +45,14 @@ html
         background-color: #DFC5A7
         color: #FFF
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
-        a
-            text-decoration: none
-            color: unset
-
-.circle
-    position: absolute
-    z-index: -1
-    width: 250px
-    height: 250px
-    border-radius: 50%
-    filter: blur(50px)
+.circle-container
+    .circle
+        position: absolute
+        z-index: -1
+        width: 250px
+        height: 250px
+        border-radius: 50%
+        filter: blur(50px)
 
 .orange-circle1
     background-color: #F8B266
@@ -68,6 +67,17 @@ html
     background-color: #A0DEEA
     transform: translateY(50px)
 
+.arrow-icon
+    color: #C8E8FF
+
+#ffdSection, #onlineTarotSection, #ilogSection, #dndSection
+    display: flex
+    flex-direction: column
+    align-items: center
+    p
+        text-align: left
+        margin: 0
+        padding-top: 0
 
 @media screen and ( min-width: 486px )
 .circle
