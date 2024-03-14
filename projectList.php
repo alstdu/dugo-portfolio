@@ -11,7 +11,11 @@
         <?php include_once("menu.html"); ?>
     </header>
     <div class="artifact-listings">
-        <div class="artifact-listing">testing</div>
+        <div class="artifact-listing">
+        <img src="./assets/images/dndtools3.svg">        
+        <img src="./assets/images/dndtools1.svg">
+        <img src="./assets/images/dndtools2.svg">
+        </div>
         <div class="artifact-listing">test</div>
         <div class="artifact-listing">trdy</div>
         <div class="artifact-listing">yrdy</div>
