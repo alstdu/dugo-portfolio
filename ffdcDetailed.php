@@ -12,9 +12,15 @@
     <?php include_once("backtoprojects.html"); ?>
     </header>
     <div class="artifact-keywords-container">
-        <div class="artifact-keywords">CSS</div>
-        <div class="artifact-keywords">SEO</div>
-        <div class="artifact-keywords">Accessibility</div>
+        <div class="gradient-border">
+            <div class="artifact-keywords">CSS</div>
+        </div>
+        <div class="gradient-border">
+            <div class="artifact-keywords">SEO</div>
+        </div>
+        <div class="gradient-border">
+            <div class="artifact-keywords">Accessibility</div>
+        </div>
     </div>
     <h1>Furry Friends Daycare</h1>
     <img src="">

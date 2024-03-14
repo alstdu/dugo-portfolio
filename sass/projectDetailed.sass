@@ -7,15 +7,21 @@ $button-accent2: #F8B266
     display: flex
     flex-direction: row
     justify-content: space-around
-    .artifact-keywords
+    $border-width: 5px
+    $border-radius: 40px
+    .gradient-border
+        background: linear-gradient(#A0DEEA, #F8B266)
         margin: .5em
-        padding: 1em
-        width: 7.5em
-        border-radius: 40px
-        border: none
-        background-color: $button-color
-        color: $font-white
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+        border-radius: $border-radius
+        padding: $border-width
+        width: calc( 7.5em + #{$border-width} )
+        .artifact-keywords
+            border-radius: $border-radius
+            padding: 0.5em 1em
+            background-color: $button-color
+            color: $font-white
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+
 .section
     margin: 1em
     h2
@@ -23,7 +29,7 @@ $button-accent2: #F8B266
     .artifact-stats-headers
         font-weight: bold
     .contributors
-        color: #0094FF
+        color: #0378cb
 
 .artifact-extras
     margin-bottom: 3em
