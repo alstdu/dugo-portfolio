@@ -20,13 +20,26 @@
         </nav>
     </header>
     <section id="home">
-    <div id="canvasTextContainer">
-    <h2 class="home-header">Hi! I'm Lexi Dugo. A Front End Dev and New Media Designer</h2>
-    <canvas id="canvas3d"></canvas>
+    <div id="canvasTextContainer" class="glass-effect">
+        <h2 class="home-header"><span>Hi! I'm Lexi Dugo</span></h2>
+        <p class="home-header-subtext">A Front End Dev and New Media Designer</p>
+    </div>
+    <!-- <canvas id="canvas3d"></canvas> -->
+    <div class="circle orange-circle1">
+    </div>
+    <div class="circle aqua-circle">
+    </div>
+    <div class="circle orange-circle2">
+    </div>
+    <div class="gradient-border">
+        <div class="page-scroll-button"><a href="#projects">Explore</a></div>
     </div>
     </section>
     <section id="projects">
     <h2>My Projects</h2>
+    <div class="gradient-border">
+        <div class="page-scroll-button"><a href="#mySkills">My Skills</a></div>
+    </div>
     </section>
     <section id="mySkills">
     <h2>Skills</h2>
