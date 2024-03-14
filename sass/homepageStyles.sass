@@ -2,6 +2,7 @@
 * 
     box-sizing: border-box
 html
+    overflow: hidden
     scroll-behavior: smooth
 #home
     #canvas3d
@@ -24,7 +25,7 @@ html
         padding-left: 0
         font-size: 2.25rem
 #home, #projects, #mySkills
-    height: 700px
+    height: 800px
     display: flex
     flex-direction: column
     align-items: center
@@ -66,3 +67,24 @@ html
     z-index: -2
     background-color: #A0DEEA
     transform: translateY(50px)
+
+
+@media screen and ( min-width: 486px )
+.circle
+    width: 400px
+    height: 400px
+
+.orange-circle1
+    transform: translateY(0px) translateX(-500px)
+
+.orange-circle2
+    transform: translateY(0px) translateX(500px)
+
+.aqua-circle
+    transform: translateY(0px)
+
+.glass-effect
+    background: linear-gradient(-40deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 38%, rgba(255,255,255,0.2) 100%)
+    border-radius: 5em
+    backdrop-filter: blur(5px)
+    border: 1px solid rgba(255, 255, 255, 0.1)
