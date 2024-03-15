@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./css/homepageStyles.css">
 </head>
 <body>
+    <div class="circle-container">
+        <div class="circle orange-circle1"></div>
+        <div class="circle aqua-circle"></div>
+        <div class="circle orange-circle2"></div>
+    </div>
     <header>
         <nav>
             <img class="logo" src="./assets/images/logo.svg">
@@ -24,14 +29,6 @@
             <h2 class="home-header"><span>Hi! I'm Lexi Dugo</span></h2>
             <p class="home-header-subtext">A Front End Dev and New Media Designer</p>
         </div>
-    <!-- <div class="circle-container">
-        <div class="circle orange-circle1">
-        </div>
-        <div class="circle aqua-circle">
-        </div>
-        <div class="circle orange-circle2">
-        </div>
-    </div> -->
         <div class="gradient-border">
             <div class="page-scroll-button"><a href="#projects">Explore</a></div>
         </div>
