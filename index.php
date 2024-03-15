@@ -67,7 +67,7 @@
             <h3>Furry Friends Daycare</h3>
             <p>Furry Friends Daycare is a fictional pet sitting business. Our job was to create the brand, create the wireframes, and develop the website using the Agile Methodology.
             <br>
-            <span class="arrow-icon">&#8594;</span> <a href="">Check It Out</a>
+            <span class="arrow-icon">&#8594;</span> <a href="./ffdcDetailed.php">Check It Out</a>
             </p>
         </div>
         <div class="gradient-border">
