@@ -23,7 +23,7 @@
         </div>
     </div>
     <h1>Furry Friends Daycare</h1>
-    <img src="">
+    <img src="./assets/images/ffdc-preview.svg">
     <div class="glass-effect section artifact-stats">
         <p><span class="artifact-stats-headers">Time:</span> ~17 Hours (my contribution)</p>
         <p><span class="artifact-stats-headers">Languages:</span> HTML, CSS, JS</p>
