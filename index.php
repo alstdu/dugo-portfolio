@@ -77,15 +77,16 @@
     <section id="mySkills">
         <h2>Skills</h2>
         <canvas id="canvas3d"></canvas>
-        <h3>Development</h3> 
-        <p>HTML, CSS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, QA, Android Studio</p>
-        <h3>New Media</h3> 
-        <p>Photoshop, Illustrator, Figma, Social Media Networking & Marketing, SEO, Content Creation, InDesign, Dimension</p>
-        <h3>UX/UI</h3> 
-        <p>User Testing, Figma Prototyping, User Flow, Wireframing, Empathy Mapping</p>
-        <h3>Project Management</h3> 
-        <p>Team leadership, waterfall, agile, user stories, Trello, Time Management</p>
-
+        <div class="glass-effect">
+            <h3>Development</h3> 
+            <p>HTML, CSS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, QA, Android Studio</p>
+            <h3>New Media</h3> 
+            <p>Photoshop, Illustrator, Figma, Social Media Networking & Marketing, SEO, Content Creation, InDesign, Dimension</p>
+            <h3>UX/UI</h3> 
+            <p>User Testing, Figma Prototyping, User Flow, Wireframing, Empathy Mapping</p>
+            <h3>Project Management</h3> 
+            <p>Team leadership, waterfall, agile, user stories, Trello, Time Management</p>
+        </div>
     </section>
     <script type="module" src="./dist/scripts.bundle.js"></script>
 </body>
