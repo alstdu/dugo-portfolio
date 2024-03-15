@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furry Friends Daycare Project</title>
+    <link rel="stylesheet" href="./css/backtoprojects.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/projectDetailed.css">
 </head>
@@ -22,8 +23,10 @@
             <div class="artifact-keywords">Accessibility</div>
         </div>
     </div>
-    <h1>Furry Friends Daycare</h1>
-    <img src="./assets/images/ffdc-preview.svg">
+    <div class="artifact-image-title">
+        <h1>Furry Friends Daycare</h1>
+        <img src="./assets/images/ffdc-preview.svg">
+    </div>
     <div class="glass-effect section artifact-stats">
         <p><span class="artifact-stats-headers">Time:</span> ~17 Hours (my contribution)</p>
         <p><span class="artifact-stats-headers">Languages:</span> HTML, CSS, JS</p>
