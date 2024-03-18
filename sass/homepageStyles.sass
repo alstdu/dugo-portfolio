@@ -1,5 +1,5 @@
 // TODO: make repeating properties into variables or use @use
-// KNOWN ISSUE: page width below 410px NOT responsive. Many page crop errors
+@use './colors'
 
 *
     box-sizing: border-box
@@ -34,6 +34,15 @@ html
 #projects
     font-family: 'lato', sans-serif
     margin-bottom: 17em
+    padding: 5em
+    .ffdc-preview
+        filter: drop-shadow(0 0 2rem colors.$ffdc-color)
+    .onlinetarot-preview
+        filter: drop-shadow(0 0 2rem colors.$onlinetarot-color)
+    .dndtools-preview
+        filter: drop-shadow(0 0 2rem colors.$dndtools-color)
+    .ilog-preview
+        filter: drop-shadow(0 0 2rem colors.$ilog-color)    
 #mySkills
     font-family: 'lato', sans-serif
 
@@ -81,13 +90,20 @@ html
         left: 50%
         transform: translateX(-50%)
 
-.arrow-icon
-    color: #C8E8FF
+.arrow-icon-ffdc
+    color: colors.$ffdc-color
+.arrow-icon-ilog
+    color: colors.$ilog-color
+.arrow-icon-onlinetarot
+    color: colors.$onlinetarot-color
+.arrow-icon-dndtools
+    color: colors.$dndtools-color
 
 #ffdSection, #onlineTarotSection, #ilogSection, #dndSection
     display: flex
     flex-direction: column
     align-items: center
+    margin-bottom: 1em
     p
         text-align: left
         margin: 0
@@ -122,3 +138,24 @@ img
     #home
         #canvasTextContainer
             margin-top: 5em
+    #projects
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+
+    .arrow-icon-ffdc
+        color: unset
+        &:hover
+            color: colors.$ffdc-color
+    .arrow-icon-ilog
+        color: unset
+        &:hover
+            color: colors.$ilog-color
+    .arrow-icon-onlinetarot
+        color: unset
+        &:hover
+            color: colors.$onlinetarot-color
+    .arrow-icon-dndtools
+        color: unset
+        &:hover
+            color: colors.$dndtools-color
