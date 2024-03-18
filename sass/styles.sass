@@ -1,19 +1,18 @@
-// TODO: give better name
-$font-white: #FFF
-$button-color: #DFC5A7
-$portrait-aura1: #A0DEEA
-$portrait-aura2: #F8B266
+@use './colors'
+
+html
+    min-height: 100vh
 
 *
     box-sizing: border-box
     transition: all 1s ease
 
 body
+    height: 100%
     text-align: center
-    margin: 1.5em
     background-color: #BBBBBB
     p
-        color: $font-white
+        color: colors.$font-white
 
 .logo
     height: 5em
@@ -30,10 +29,10 @@ nav
         list-style-type: none
         li a
                 text-decoration: none
-                color: $font-white
+                color: colors.$font-white
 
 h1, h2, h3
-    color: $font-white
+    color: colors.$font-white
     font-family: 'Laisha', sans-serif
 
 p
@@ -56,7 +55,7 @@ main
     align-items: center
     font-family: 'lato', sans-serif
     p
-        color: $font-white
+        color: colors.$font-white
 
 .connect-columns
     display: flex
@@ -66,11 +65,11 @@ main
     font-family: 'lato', sans-serif
 
 .download-button, .artifact-buttons
-    background-color: $button-color
+    background-color: colors.$button-color
     border-radius: 40px
     border: none
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
-    color: $font-white
+    color: colors.$font-white
     width: 7.5em
     padding: 1em
     font-family: 'lato', sans-serif
@@ -83,7 +82,7 @@ main
     max-height: 300px
     max-width: 200px
     margin: .5em
-    filter: drop-shadow(0 0 2rem $portrait-aura2) drop-shadow(0 0 4rem $portrait-aura1)
+    filter: drop-shadow(0 0 2rem colors.$portrait-aura2) drop-shadow(0 0 4rem colors.$portrait-aura1)
 
 .social-icons
     display: flex
@@ -98,13 +97,14 @@ main
     p
         padding: 1.25em
 
-@media screen and ( min-width: 486px )
+@media screen and ( min-width: 1000px )
     body
-        margin: 0
+        margin: 1.5em
+        height: 100vh
     .desktop
         display: flex
         justify-content: space-around
-        height: 100vh
+        height: 100%
     nav
         display: flex
         flex-direction: row
@@ -117,15 +117,10 @@ main
     main
         display: flex
         width: 50%
+        padding: 3em
         h1, h2
             margin: 0
             bottom: .5em
     .portrait
         max-height: 500px
-        max-width: 300px
-
-    .about-me, .lets-connect
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
+        max-width: 400px    
