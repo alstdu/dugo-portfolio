@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/backtoprojects.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/projectDetailed.css">
+    <link rel="stylesheet" href="./css/backtotop.css">
 </head>
 <body>
     <header>
@@ -73,11 +74,11 @@
         <p>Our New Media Marketing class taught us about the importance of SEO and how crawlers search webpages for different types of data. We also learned how to make a marketing plan from start to finish.</p>
     </div>
     <div class="artifact-buttons-container">
-        <button class="artifact-buttons">Sheets</button>
-        <button class="artifact-buttons">View Code</button>
-        <button class="artifact-buttons">Live Site</button>
+        <button class="artifact-buttons"><a>Sheets</a></button>
+        <button class="artifact-buttons"><a>View Code</a></button>
+        <button class="artifact-buttons"><a>Live Site</a></button>
     </div>
+    <?php include_once("backtothetop.html"); ?>
     <script src="./scripts/projectDetailed.js"></script>
 </body>
-<?php include_once("backtothetop.html"); ?>
 </html>

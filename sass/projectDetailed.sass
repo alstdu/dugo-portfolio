@@ -1,8 +1,8 @@
-$font-white: #FFF
-$button-color: #DFC5A7
-$button-accent1: #A0DEEA
-$button-accent2: #F8B266
-
+@use './colors'
+@use './fonts'
+html
+    scroll-behavior: smooth
+    
 header
     display: flex
     align-items: center
@@ -11,13 +11,14 @@ header
     display: flex
     flex-direction: row
     justify-content: space-around
+    font-family: fonts.$main-font
     $border-width: 5px
     $border-radius: 40px
     padding:
         left: 10em
         right: 10em
     .gradient-border
-        background: linear-gradient(#A0DEEA, #F8B266)
+        background: linear-gradient(colors.$button-accent1, colors.$button-accent2)
         margin: .5em
         border-radius: $border-radius
         padding: $border-width
@@ -25,8 +26,8 @@ header
         .artifact-keywords
             border-radius: $border-radius
             padding: 0.5em 1em
-            background-color: $button-color
-            color: $font-white
+            background-color: colors.$button-color
+            color: colors.$font-white
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
 
 .section
@@ -36,7 +37,14 @@ header
     .artifact-stats-headers
         font-weight: bold
     .contributors
-        color: #0378cb
+        color: colors.$ffdc-color
+
+.artifact-stats
+    p
+        font-family: fonts.$main-font
+
+.artifact-process, .artifact-challenges, .artifact-extras
+    font-family: fonts.$main-font
 
 .artifact-extras
     margin-bottom: 3em
@@ -46,13 +54,13 @@ header
     flex-direction: column
     align-items: center
     width: 100%
+    font-family: fonts.$accent-font
     img
         margin: .5em
             margin-bottom: 1em
-        filter: drop-shadow(0 0 2rem #0378cb)
+        filter: drop-shadow(0 0 2rem colors.$ffdc-color)
     h1
         margin-bottom: 0
-
 
 @media screen and ( min-width: 1100px )
     .artifact-header
@@ -70,6 +78,10 @@ header
         padding:
             left: 10em
             right: 10em
+
+    .artifact-buttons-container
+        .artifact-buttons
+            margin: 2em
 
 @media screen and ( min-width: 1600px )
     .artifact-header
