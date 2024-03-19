@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furry Friends Daycare Project</title>
     <link rel="stylesheet" href="./css/backtoprojects.css">
+    <link rel="stylesheet" href="./css/backtotop.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/projectDetailed.css">
-    <link rel="stylesheet" href="./css/backtotop.css">
 </head>
 <body>
     <header>
@@ -41,35 +41,35 @@
         <p>For my project management course, we were tasked with coming up with a fictional business and creating branding, wireframes, and a website using the scrum methodology.  The whole project was done using a 5 week sprint structure. I created the template for our All In One Google Sheet which included time logs, our backlog, sprints, and burndown charts.</p>
         <figure>
             <img src="">
-            <figcaption>To see this page, <a>tap here</a></figcaption>
+            <figcaption>To see this page, <a href="https://docs.google.com/spreadsheets/d/1O8CvXmbhbtlzrKtNar9PQUufsr2qIEz_kxThoAKuRlo/edit?usp=sharing">tap here</a></figcaption>
         </figure>
         <p>We started by creating user stories and prioritizing those tasks in our backlog and weekly sprints.</p>
         <figure>
             <img src="">
-            <figcaption>To see this page, <a>tap here</a></figcaption>
+            <figcaption>To see this page, <a href="https://docs.google.com/spreadsheets/d/1O8CvXmbhbtlzrKtNar9PQUufsr2qIEz_kxThoAKuRlo/edit?usp=sharing">tap here</a></figcaption>
         </figure>
         <p>Development started in sprint 2, and in sprint 3 my teammate Manh helped with code reviews and creating the contact page. We learned about merging and pull requests and had some practice reviewing and managing branches.</p>
         <figure>
             <img src="">
-            <figcaption>To see this page, <a>tap here</a></figcaption>
+            <figcaption>A bit of pull request history</figcaption>
         </figure>
     </div>
+    <h2>Challenges & Solutions</h2>
     <div class="glass-effect section artifact-challenges">
-        <h2>Challenges & Solutions</h2>
         <p>Most of the challenges I encountered were related to making certain elements accessible. This was the first project in which I took a deep dive into accessible elements.</p>
-        <p>I used many resources to help guide decision making such as <a>Aditus’ guide on accessible accordion menus</a>, <a>MDN’s documentation</a> on forms and inputs, and multiple sources for how to style radio buttons without the checkbox.</p>
+        <p>I used many resources to help guide decision making such as <a href="https://www.aditus.io/patterns/accordion/">Aditus’ guide on accessible accordion menus</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset%2520https:_developer.mozilla.org/en-US/docs/Web/HTML/Element/form">MDN’s documentation</a> on forms and inputs, and multiple sources for how to style radio buttons without the checkbox.</p>
         <figure>
             <img src="">
-            <figcaption></figcaption>
+            <figcaption>Accessible Accordion Menu</figcaption>
         </figure>
-        <p>You can check out <a>my GitHub repo’s</a> README to see more sources.</p>
+        <p>You can check out <a href="https://github.com/alstdu/FurryFriendsDaycare">my GitHub repo’s</a> README to see more sources.</p>
     </div>
+    <h2>Post-Course Additions</h2>
     <div class="glass-effect section artifact-extras">
-        <h2>Post-Coutse Additions</h2>
         <p>After the course was completed, I added some SEO markup to the HTML to practice implementing structured data markup and metadata.</p>
         <figure>
                 <img src="">
-                <figcaption></figcaption>
+                <figcaption>Structured Data Markup</figcaption>
         </figure>
         <p>Our New Media Marketing class taught us about the importance of SEO and how crawlers search webpages for different types of data. We also learned how to make a marketing plan from start to finish.</p>
     </div>
