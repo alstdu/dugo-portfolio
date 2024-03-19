@@ -35,37 +35,39 @@
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <div id="dndSection">
-            <img class="dndtools-preview" src="./assets/images/dndtools-preview.svg" alt="preview of D&D Tools Project">
-            <h3>D&D Tools</h3>
-            <p>A collection of D&D tools including a spells table, a point buy calculator and a 3D dice roller. Created using HTML, CSS, JS & packaged with Webpack.
-            <br>
-            <span class="arrow-icon-dndtools">&#8594; <a href="">Check It Out</a></span>
-            </p>
-        </div>
-        <div id="ilogSection">
-            <img class="ilog-preview" src="./assets/images/ilog-preview.svg" alt="preview of ILOG ELD Project">
-            <h3>ILog ELD</h3>
-            <p>ILog ELD is an HOS (hours of service) ELD (electronic logging device) for owner operators. It features the ability to add, edit, and certify logs.
-            <br>
-            <span class="arrow-icon-ilog">&#8594; <a href="">Check It Out</a></span> 
-            </p>
-        </div>
-        <div id="onlineTarotSection">
-            <img class="onlinetarot-preview" src="./assets/images/onlinetarot-preview.svg" alt="preview of Online Tarot Card Project">
-            <h3>Online Tarot</h3>
-            <p>An online tarot card picker that allows you to do one, two, and three card spreads. It features a deck that I created myself, and shows keywords for each.
-            <br>
-            <span class="arrow-icon-onlinetarot">&#8594; <a href="">Check It Out</a></span> 
-            </p>
-        </div>
-        <div id="ffdSection">
-            <img class="ffdc-preview" src="./assets/images/ffdc-preview.svg" alt="preview of Furry Friends Daycare project">
-            <h3>Furry Friends Daycare</h3>
-            <p>Furry Friends Daycare is a fictional pet sitting business. Our job was to create the brand, create the wireframes, and develop the website using the Agile Methodology.
-            <br>
-            <span class="arrow-icon-ffdc">&#8594; <a href="./ffdcDetailed.php">Check It Out</a></span>
-            </p>
+        <div class="projects-layout-container">
+            <div id="dndSection">
+                <img class="dndtools-preview project-preview" src="./assets/images/dndtools-preview.svg" alt="preview of D&D Tools Project">
+                <h3>D&D Tools</h3>
+                <p>A collection of D&D tools including a spells table, a point buy calculator and a 3D dice roller. Created using HTML, CSS, JS & packaged with Webpack.
+                <br>
+                <span class="arrow-icon-dndtools">&#8594; <a href="">Check It Out</a></span>
+                </p>
+            </div>
+            <div id="ilogSection">
+                <img class="ilog-preview project-preview" src="./assets/images/ilog-preview.svg" alt="preview of ILOG ELD Project">
+                <h3>ILog ELD</h3>
+                <p>ILog ELD is an HOS (hours of service) ELD (electronic logging device) for owner operators. It features the ability to add, edit, and certify logs.
+                <br>
+                <span class="arrow-icon-ilog">&#8594; <a href="">Check It Out</a></span> 
+                </p>
+            </div>
+            <div id="onlineTarotSection">
+                <img class="onlinetarot-preview project-preview" src="./assets/images/onlinetarot-preview.svg" alt="preview of Online Tarot Card Project">
+                <h3>Online Tarot</h3>
+                <p>An online tarot card picker that allows you to do one, two, and three card spreads. It features a deck that I created myself, and shows keywords for each.
+                <br>
+                <span class="arrow-icon-onlinetarot">&#8594; <a href="">Check It Out</a></span> 
+                </p>
+            </div>
+            <div id="ffdSection">
+                <img class="ffdc-preview project-preview" src="./assets/images/ffdc-preview.svg" alt="preview of Furry Friends Daycare project">
+                <h3>Furry Friends Daycare</h3>
+                <p>Furry Friends Daycare is a fictional pet sitting business. Our job was to create the brand, create the wireframes, and develop the website using the Agile Methodology.
+                <br>
+                <span class="arrow-icon-ffdc">&#8594; <a href="./ffdcDetailed.php">Check It Out</a></span>
+                </p>
+            </div>
         </div>
         <div class="gradient-border">
             <div class="page-scroll-button"><a href="#mySkills">My Skills</a></div>
