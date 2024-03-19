@@ -57,12 +57,14 @@ html
 #mySkills
     font-family: fonts.$main-font
     padding: 2em
+    .skills-list
+        margin-bottom: 3em
 
 .gradient-border
     background: linear-gradient(#A0DEEA, #F8B266)
     margin: .5em
         top: 5em
-        bottom: 10em
+        bottom: 5em
     border-radius: 40px
     padding: 5px
     width: calc( 12em + #{5px} )
@@ -161,13 +163,21 @@ $icon-margin: 5px
     width: 100%
     text-align: center
     padding-top: 2em
+
+@media screen and ( min-width: 480px )
     #home
         padding: 2em
     .gradient-border
         width: calc( 12em + #{100px} )
         margin:
             top: 7em
-            bottom: 15em
+            bottom: 10em
+    #mySkills
+        padding: 3em
+        .skills-list
+            padding: 0em
+            margin-bottom: 1.5em
+
     #home, #projects, #mySkills
         min-height: 900px
 
@@ -176,6 +186,8 @@ $icon-margin: 5px
         padding: 0 3em
         #canvasTextContainer
             padding: 5em
+    #mySkills
+        padding: 5em
 
 @media screen and ( min-width: 800px )
     .gradient-border
@@ -185,8 +197,8 @@ $icon-margin: 5px
         height: 800px // absolute children treat overflow-x like overflow
         padding-top: 100px
         .circle
-            width: 350px
-            height: 350px
+            width: 500px
+            height: 500px
     #home
         min-height: 500px
         #canvasTextContainer
@@ -228,3 +240,43 @@ $icon-margin: 5px
         color: unset
         &:hover
             color: colors.$dndtools-color
+
+@media screen and ( min-width: 1250px )
+    #home
+        .home-header
+            span
+                font-size: 5rem
+        .home-header-subtext
+            font-size: 3rem
+
+    .circle-container
+        .orange-circle1
+            background-color: #F8B266
+            left: 0
+            transform: translateX(0)
+        .orange-circle2
+            background-color: #F8B266
+            right: 0
+            transform: translateX(0)
+            z-index: -2
+        .aqua-circle
+            background-color: #A0DEEA
+            left: 50%
+            transform: translateX(-50%)
+
+
+@media screen and ( min-width: 1800px )
+    .circle-container
+        .orange-circle1
+            background-color: #F8B266
+            left: 15%
+            transform: translateX(0)
+        .orange-circle2
+            background-color: #F8B266
+            right: 15%
+            transform: translateX(0)
+            z-index: -2
+        .aqua-circle
+            background-color: #A0DEEA
+            left: 50%
+            transform: translateX(-50%)
