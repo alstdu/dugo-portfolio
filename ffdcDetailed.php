@@ -35,8 +35,8 @@
             <p><span class="artifact-stats-headers">Contributors:</span><span class="contributors"> Manh Ellis</span> (Copywriter & Development Assistant), <span class="contributors">Kimia Ashrafi</span> (Social Icons & Product Owner), <span class="contributors">Myta Palo</span> (Branding), <span class="contributors">Stella Park</span> (Scrum Master & UX/UI)</p>
         </div>
     </div>
+    <h2>Process</h2>
     <div class="glass-effect section artifact-process">
-        <h2>Process</h2>
         <p>For my project management course, we were tasked with coming up with a fictional business and creating branding, wireframes, and a website using the scrum methodology.  The whole project was done using a 5 week sprint structure. I created the template for our All In One Google Sheet which included time logs, our backlog, sprints, and burndown charts.</p>
         <figure>
             <img src="">
