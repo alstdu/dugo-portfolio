@@ -31,9 +31,9 @@
                             <img src="./assets/images/githublogo.svg">
                         </div>
                         <div class="handles">
-                            <p><a href="" target="_blank">Lexi Dugo</a></p>
-                            <p><a href="" target="_blank">lexidugo</a></p>
-                            <p><a href="" target="_blank">alstdu</a></p>
+                            <p><a href="https://linkedin.com/in/lexidugo" target="_blank">Lexi Dugo</a></p>
+                            <p><a href="https://instagram.com/lexidugo" target="_blank">lexidugo</a></p>
+                            <p><a href="https://github.com/alstdu" target="_blank">alstdu</a></p>
                         </div>
                     </div>
                 </div>
