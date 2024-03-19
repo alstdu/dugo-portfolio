@@ -31,9 +31,9 @@
                             <img src="./assets/images/githublogo.svg">
                         </div>
                         <div class="handles">
-                            <p>Lexi Dugo</p>
-                            <p>lexidugo</p>
-                            <p>alstdu</p>
+                            <p><a href="" target="_blank">Lexi Dugo</a></p>
+                            <p><a href="" target="_blank">lexidugo</a></p>
+                            <p><a href="" target="_blank">alstdu</a></p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
         </div>
         <div class="resume">
             <p>Think I'd be a good fit for you or a friend? Download my resume!</p>
-            <button class="download-button" id="downloadButton"><a href="https://profile.indeed.com/p/alexisd-fdpr3c4">Download</a></button>
+            <button class="download-button" id="downloadButton"><a href="https://profile.indeed.com/p/alexisd-fdpr3c4" target="_blank">Download</a></button>
         </div>
     </div>
     <script src="./scripts/scripts.js"></script>
