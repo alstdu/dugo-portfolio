@@ -88,10 +88,10 @@
         </div>
     </section>
     <div class="social-sidebar">
-        <a href="https://www.linkedin.com/in/lexidugo/" class="social-icon glass-effect">LinkedIn</a>
-        <a href="https://github.com/alstdu" class="social-icon glass-effect">GitHub</a>
-        <a href="https://instagram.com/lexidugo" class="social-icon glass-effect">Instagram</a>
-        <a href="mailto:lexidugo@gmail.com" class="social-icon glass-effect">Email</a>
+        <a href="https://www.linkedin.com/in/lexidugo/" target="_blank" class="social-icon glass-effect">LinkedIn</a>
+        <a href="https://github.com/alstdu" target="_blank" class="social-icon glass-effect">GitHub</a>
+        <a href="https://instagram.com/lexidugo" target="_blank" class="social-icon glass-effect">Instagram</a>
+        <a href="mailto:lexidugo@gmail.com" target="_blank" class="social-icon glass-effect">Email</a>
     </div>
     <script type="module" src="./dist/scripts.bundle.js"></script>
 </body>

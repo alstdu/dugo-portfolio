@@ -74,9 +74,9 @@
         <p>Our New Media Marketing class taught us about the importance of SEO and how crawlers search webpages for different types of data. We also learned how to make a marketing plan from start to finish.</p>
     </div>
     <div class="artifact-buttons-container">
-        <button class="artifact-buttons"><a>Sheets</a></button>
-        <button class="artifact-buttons"><a>View Code</a></button>
-        <button class="artifact-buttons"><a>Live Site</a></button>
+        <button class="artifact-buttons"><a href="" target="_blank">Sheets</a></button>
+        <button class="artifact-buttons"><a href="" target="_blank">View Code</a></button>
+        <button class="artifact-buttons"><a href="" target="_blank">Live Site</a></button>
     </div>
     <?php include_once("backtothetop.html"); ?>
     <script src="./scripts/projectDetailed.js"></script>
