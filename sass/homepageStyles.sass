@@ -1,5 +1,6 @@
 // TODO: make repeating properties into variables or use @use
 @use './colors'
+@use './fonts'
 
 *
     box-sizing: border-box
@@ -32,8 +33,7 @@ html
     align-items: center
 
 #projects
-    font-family: 'lato', sans-serif
-    margin-bottom: 5em
+    font-family: fonts.$main-font
     padding: 5em
     .projects-layout-container
         display: flex
@@ -55,7 +55,8 @@ html
         filter: drop-shadow(0 0 2rem colors.$ilog-color)
 
 #mySkills
-    font-family: 'lato', sans-serif
+    font-family: fonts.$main-font
+    padding: 2em
 
 .gradient-border
     background: linear-gradient(#A0DEEA, #F8B266)
@@ -66,7 +67,7 @@ html
     padding: 5px
     width: calc( 12em + #{5px} )
     .page-scroll-button
-        font-family: 'Laisha', sans-serif
+        font-family: fonts.$accent-font
         border-radius: 40px
         padding: 0.5em 1em
         background-color: #DFC5A7

@@ -1,4 +1,5 @@
 @use './colors'
+@use './fonts'
 
 html
     min-height: 100vh
@@ -19,7 +20,7 @@ body
     width: 5em
 
 nav
-    font-family: 'lato', sans-serif
+    font-family: fonts.$main-font
     ul
         display: flex
         flex-direction: row
@@ -33,7 +34,7 @@ nav
 
 h1, h2, h3
     color: colors.$font-white
-    font-family: 'Laisha', sans-serif
+    font-family: fonts.$accent-font
 
 p
     margin: 0
@@ -53,7 +54,7 @@ main
     flex-direction: column
     justify-content: center
     align-items: center
-    font-family: 'lato', sans-serif
+    font-family: fonts.$main-font
     p
         color: colors.$font-white
 
@@ -62,7 +63,7 @@ main
     flex-direction: row
     justify-content: center
     align-items: center
-    font-family: 'lato', sans-serif
+    font-family: fonts.$main-font
 
 .download-button, .artifact-buttons
     background-color: colors.$button-color
@@ -72,10 +73,10 @@ main
     color: colors.$font-white
     width: 7.5em
     padding: 1em
-    font-family: 'lato', sans-serif
+    font-family: fonts.$main-font
 
 .resume
-    font-family: 'lato', sans-serif
+    font-family: fonts.$main-font
 
 .portrait
     border-radius: 200px
