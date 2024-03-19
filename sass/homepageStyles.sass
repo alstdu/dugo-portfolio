@@ -123,7 +123,43 @@ html
 img
     max-width: 100%
 
-@media screen and ( min-width: 485px )
+// STYLES FOR SOCIAL MEDIA SIDEBAR
+// Define variables for repeated values
+$background-color: #F8B266
+$text-color: #fff
+$icon-padding: 10px
+$icon-margin: 5px
+
+// Mixin for media query
+@mixin respond-to($media)
+  @if $media == small
+    @media (max-width: 620px)
+      @content
+
+// Social sidebar styles
+.social-sidebar
+  position: fixed
+  top: 80%
+  transform: translateY(-50%)
+  z-index: 1000
+
+  .social-icon 
+    display: block
+    margin: $icon-margin
+    padding: $icon-padding
+    color: $text-color
+    text-align: center
+    box-shadow: 0px 0px 5px #0000003d
+    border-radius: 50px
+    &:hover
+        background: $background-color
+
+  // Responsive adjustments
+  @include respond-to(small) 
+    position: static
+    width: 100%
+    text-align: center
+    padding-top: 2em
     #home
         padding: 2em
     .gradient-border

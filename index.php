@@ -76,17 +76,23 @@
     <section id="mySkills">
         <h2>Skills</h2>
         <canvas id="canvas3d"></canvas>
-        <div class="glass-effect">
-            <h3>Development</h3> 
+        <div class="glass-effect skills-list">
+            <h3>Development</h3>
             <p>HTML, CSS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, QA, Android Studio</p>
-            <h3>New Media</h3> 
+            <h3>New Media</h3>
             <p>Photoshop, Illustrator, Figma, Social Media Networking & Marketing, SEO, Content Creation, InDesign, Dimension</p>
-            <h3>UX/UI</h3> 
+            <h3>UX/UI</h3>
             <p>User Testing, Figma Prototyping, User Flow, Wireframing, Empathy Mapping</p>
             <h3>Project Management</h3> 
             <p>Team leadership, waterfall, agile, user stories, Trello, Time Management</p>
         </div>
     </section>
+    <div class="social-sidebar">
+        <a href="https://www.linkedin.com/in/lexidugo/" class="social-icon glass-effect">LinkedIn</a>
+        <a href="https://github.com/alstdu" class="social-icon glass-effect">GitHub</a>
+        <a href="https://instagram.com/lexidugo" class="social-icon glass-effect">Instagram</a>
+        <a href="mailto:lexidugo@gmail.com" class="social-icon glass-effect">Email</a>
+    </div>
     <script type="module" src="./dist/scripts.bundle.js"></script>
 </body>
 </html>
