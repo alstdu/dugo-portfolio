@@ -14,8 +14,5 @@ function toggleClassByScreenSize() {
     }
 }
 
-// Listen for changes in the viewport size
 window.addEventListener( 'resize', toggleClassByScreenSize );
-
-// Call the function on initial load
 toggleClassByScreenSize();
