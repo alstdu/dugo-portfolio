@@ -2,7 +2,12 @@
 @use './fonts'
 html
     scroll-behavior: smooth
-    
+
+body
+    h2
+        margin-bottom: 0
+        font-family: fonts.$main-font
+
 header
     display: flex
     align-items: center
@@ -32,8 +37,6 @@ header
 
 .section
     margin: 1em
-    h2
-        margin-bottom: 0
     .artifact-stats-headers
         font-weight: bold
     .contributors
@@ -72,11 +75,14 @@ header
             left: 10em
             right: 10em
     .artifact-process, .artifact-challenges, .artifact-extras
+        display: flex
+        flex-direction: column
+        text-align: left
         margin: 5em
             left: 5em
             right: 5em
         padding:
-            left: 10em
+            left: 3em
             right: 10em
 
     .artifact-buttons-container
