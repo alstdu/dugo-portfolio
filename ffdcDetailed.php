@@ -23,15 +23,17 @@
             <div class="artifact-keywords">Accessibility</div>
         </div>
     </div>
-    <div class="artifact-image-title">
-        <h1>Furry Friends Daycare</h1>
-        <img src="./assets/images/ffdc-preview.svg">
-    </div>
-    <div class="glass-effect section artifact-stats">
-        <p><span class="artifact-stats-headers">Time:</span> ~17 Hours (my contribution)</p>
-        <p><span class="artifact-stats-headers">Languages:</span> HTML, CSS, JS</p>
-        <p><span class="artifact-stats-headers">Skills:</span> Scrum Methodology, Accessible Design, GitHub Collaboration, Designing from a Wireframe, SEO Markup</p>
-        <p><span class="artifact-stats-headers">Contributors:</span><span class="contributors"> Manh Ellis</span> (Copywriter & Development Assistant), <span class="contributors">Kimia Ashrafi</span> (Social Icons & Product Owner), <span class="contributors">Myta Palo</span> (Branding), <span class="contributors">Stella Park</span> (Scrum Master & UX/UI)</p>
+    <div class="artifact-header">
+        <div class="artifact-image-title">
+            <h1>Furry Friends Daycare</h1>
+            <img src="./assets/images/ffdc-preview.svg">
+        </div>
+        <div class="glass-effect section artifact-stats">
+            <p><span class="artifact-stats-headers">Time:</span> ~17 Hours (my contribution)</p>
+            <p><span class="artifact-stats-headers">Languages:</span> HTML, CSS, JS</p>
+            <p><span class="artifact-stats-headers">Skills:</span> Scrum Methodology, Accessible Design, GitHub Collaboration, Designing from a Wireframe, SEO Markup</p>
+            <p><span class="artifact-stats-headers">Contributors:</span><span class="contributors"> Manh Ellis</span> (Copywriter & Development Assistant), <span class="contributors">Kimia Ashrafi</span> (Social Icons & Product Owner), <span class="contributors">Myta Palo</span> (Branding), <span class="contributors">Stella Park</span> (Scrum Master & UX/UI)</p>
+        </div>
     </div>
     <div class="glass-effect section artifact-process">
         <h2>Process</h2>
@@ -75,6 +77,7 @@
         <button class="artifact-buttons">View Code</button>
         <button class="artifact-buttons">Live Site</button>
     </div>
+    <script src="./scripts/projectDetailed.js"></script>
 </body>
 <?php include_once("backtothetop.html"); ?>
 </html>
