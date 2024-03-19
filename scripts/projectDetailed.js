@@ -1,7 +1,7 @@
 
 // Function to toggle the class based on screen size
 function toggleClassByScreenSize() {
-    const mediaQuery = window.matchMedia( '(min-width: 900px)' );
+    const mediaQuery = window.matchMedia( '(min-width: 1100px)' );
     const artifactStats = document.querySelector( '.artifact-stats' );
 
     // Check if the media query matches the current screen size
