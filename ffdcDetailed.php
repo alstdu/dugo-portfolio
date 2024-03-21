@@ -76,7 +76,7 @@
     <div class="artifact-buttons-container">
         <button class="artifact-buttons"><a href="https://docs.google.com/spreadsheets/d/1O8CvXmbhbtlzrKtNar9PQUufsr2qIEz_kxThoAKuRlo/edit?usp=sharing" target="_blank">Sheets</a></button>
         <button class="artifact-buttons"><a href="https://github.com/alstdu/FurryFriendsDaycare" target="_blank">View Code</a></button>
-        <button class="artifact-buttons"><a href="" target="_blank">Live Site</a></button>
+        <button class="artifact-buttons"><a href="https://furryfriendsdaycare.lexidugo.com" target="_blank">Live Site</a></button>
     </div>
     <?php include_once("backtothetop.html"); ?>
     <script src="./scripts/projectDetailed.js"></script>
