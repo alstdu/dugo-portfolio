@@ -6,6 +6,7 @@
     <title>Portfolio Home</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/homepageStyles.css">
+    <link rel="stylesheet" href="./css/backtotop.css">
 </head>
 <body>
     <div class="circle-container">
@@ -34,7 +35,9 @@
         </div>
     </section>
     <section id="projects">
-        <h2>Projects</h2>
+        <div class="canvas-container">
+            <canvas id="projectcanvas3d" aria-label="Projects"></canvas>
+        </div>
         <div class="projects-layout-container">
             <div id="dndSection">
                 <img class="dndtools-preview project-preview" src="./assets/images/dndtools-preview.svg" alt="preview of D&D Tools Project">
@@ -74,8 +77,9 @@
         </div>
     </section>
     <section id="mySkills">
-        <h2>Skills</h2>
-        <canvas id="canvas3d"></canvas>
+        <div class="canvas-container">
+            <canvas id="canvas3d" aria-label="My Skills"></canvas>
+        </div>
         <div class="glass-effect skills-list">
             <h3>Development</h3>
             <p>HTML, CSS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, QA, Android Studio</p>
@@ -93,6 +97,7 @@
         <a href="https://instagram.com/lexidugo" target="_blank" class="social-icon glass-effect">Instagram</a>
         <a href="mailto:lexidugo@gmail.com" target="_blank" class="social-icon glass-effect">Email</a>
     </div>
+    <?php include_once("backtothetop.html"); ?>
     <script type="module" src="./dist/scripts.bundle.js"></script>
 </body>
 </html>
