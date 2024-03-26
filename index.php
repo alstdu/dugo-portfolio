@@ -60,7 +60,7 @@
                 <h3>Online Tarot</h3>
                 <p>An online tarot card picker that allows you to do one, two, and three card spreads. It features a deck that I created myself, and shows keywords for each.
                 <br>
-                <span class="arrow-icon-onlinetarot">&#8594; <a href="">Check It Out</a></span> 
+                <span class="arrow-icon-onlinetarot">&#8594; <a href="./tarotCardsDetailed.php">Check It Out</a></span> 
                 </p>
             </div>
             <div id="ffdSection">
