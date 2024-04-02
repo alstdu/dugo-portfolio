@@ -29,15 +29,14 @@
         <div id="canvasTextContainer" class="glass-effect">
             <h2 class="home-header"><span>Hi! I'm Lexi Dugo</span></h2>
             <p class="home-header-subtext">A Front End Dev and New Media Designer</p>
-        </div>
-        <div class="gradient-border">
-            <div class="page-scroll-button"><a href="#projects">Explore</a></div>
+            <div class="indicator"></div>
         </div>
     </section>
     <section id="projects">
-        <div class="canvas-container">
-            <canvas id="projectcanvas3d" aria-label="Projects"></canvas>
-        </div>
+        <!-- <div class="canvas-container">
+
+        </div> -->
+        <h2>Projects</h2>
         <div class="projects-layout-container">
             <div id="dndSection">
                 <img class="dndtools-preview project-preview" src="./assets/images/dndtools-preview.svg" alt="preview of D&D Tools Project">
