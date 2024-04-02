@@ -19,7 +19,7 @@
                     <p>School: British Colombia Institute of Technology - New Media Design and Web Development</p>
                     <p>Location: New Westminster, BC</p>
                     <p>Hobbies: Video Games, Yoga, Running my bubble tea Instagram page</p>
-                    <p>D&D Homebrew: Dryad</p>
+                    <p>Origins: Chicago, IL</p>
                     <p>Languages: English - Native | French - Beginner | Mandarin - Beginner</p>
                 </div>
                 <div class="lets-connect">
