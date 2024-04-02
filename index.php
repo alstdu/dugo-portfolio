@@ -52,7 +52,7 @@
                 <h3>ILog ELD</h3>
                 <p>ILog ELD is an HOS (hours of service) ELD (electronic logging device) for owner operators. It features the ability to add, edit, and certify logs.
                 <br>
-                <span class="arrow-icon-ilog">&#8594; <a href="">Check It Out</a></span> 
+                <span class="arrow-icon-ilog">&#8594; <a href="./ilogDetailed.php">Check It Out</a></span> 
                 </p>
             </div>
             <div id="onlineTarotSection">
@@ -64,7 +64,7 @@
                 </p>
             </div>
             <div id="ffdSection">
-                <img class="ffdc-preview project-preview" src="./assets/images/ffdc-preview.svg" alt="preview of Furry Friends Daycare project">
+                <img href="./ffdcDetailed.php" class="ffdc-preview project-preview" src="./assets/images/ffdc-preview.svg" alt="preview of Furry Friends Daycare project">
                 <h3>Furry Friends Daycare</h3>
                 <p>Furry Friends Daycare is a fictional pet sitting business. Our job was to create the brand, create the wireframes, and develop the website using the Agile Methodology.
                 <br>
