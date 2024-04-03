@@ -51,32 +51,27 @@
             <img src="./assets/images/artifact-photos/ilog-1.png">
             <figcaption>User Persona, Michael</figcaption>
         </figure>
-        <p></p>
-        <figure>
-            <img src="./assets/images/artifact-photos/ffdc-2.png">
-            <figcaption>User Flow</figcaption>
-        </figure>
         <p>Once my user flow was completed, I was able to start my wireframes. At the beginning of this project, I was
             still
             relatively new to Figma, so I opted for hand-drawing my wireframes as a fold out to illustrate the process.
         </p>
         <figure>
-            <img src="./assets/images/artifact-photos/ffdc-3.png">
+            <img src="./assets/images/artifact-photos/ilog-wireframes.png">
             <figcaption>Wireframes</figcaption>
         </figure>
-        <p>I then moved over to Figma to complete my prototype. I did three iterations of my prototype. After the first
+        <p>I then moved over to Figma to complete my prototype, which you can see later on this page! I did three iterations of my prototype. After the first
             iteration was complete,
             I moved on to user testing. The user testing was conducted using Maze, and the results were analyzed to see
             areas of improvement.
             If you'd like to check out my project report detailing the user testing and results, please head to the
-            bottom of this page!
+            bottom section of this page!
             After getting my test results back, I improved the prototype once more and after the course was over, my
             professor provided
             additional feedback which I also implemented.
         </p>
         <figure>
-            <img src="./assets/images/artifact-photos/ffdc-3.png">
-            <figcaption>Dashboard screen</figcaption>
+            <img src="./assets/images/artifact-photos/ilog-figma.png">
+            <figcaption>Figma Workflow</figcaption>
         </figure>
     </div>
     <h2>Challenges & Solutions</h2>
@@ -90,8 +85,7 @@
             into my starting screens to make it more like a process flow versus making them start from
             the beginning every time with no guidance. </p>
         <figure class="figure-row-span">
-            <img src="./assets/images/artifact-photos/ffdc-4.png">
-            <figcaption>Issues With Testing</figcaption>
+            <img src="./assets/images/artifact-photos/ilog-test.png">
         </figure>
         <p>The second issue I encountered was more of an oversight, which is that I wasn't aware that my classmates
             would be the main ones testing my prototype. Originally, I had people in mind who were already familiar with
@@ -109,9 +103,11 @@
     </div>
     <h2>Report</h2>
     <div class="glass-effect section artifact-section">
-        <div style="position: relative; width: 100%; height: 0; padding-top: 129.4118%;
+        <!-- height: 0; padding-top: 129.4118%; -->
+        <!-- aspect-ratio: 0.772727061984; max-height: 80vh; -->
+        <div style="position: relative; width: 100%; aspect-ratio: 0.772727061984; max-height: 80vh;
     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-    border-radius: 8px; will-change: transform; margin-left: auto; margin-right:auto;">
+    border-radius: 8px; will-change: transform; margin-left: auto; margin-right:auto; max-height: 80vh">
             <iframe loading="lazy"
                 style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
                 src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFvfrS4J3o&#x2F;nxzICpGtPtYtypATzBV_4Q&#x2F;view?embed"
