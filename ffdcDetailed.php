@@ -37,7 +37,7 @@
         </div>
     </div>
     <h2>Process</h2>
-    <div class="glass-effect section artifact-section artifact-process">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-process">
         <p>For my project management course, we were tasked with coming up with a fictional business and creating branding, wireframes, and a website using the scrum methodology.  The whole project was done using a 5 week sprint structure. I created the template for our All In One Google Sheet which included time logs, our backlog, sprints, and burndown charts.</p>
         <figure>
             <img src="./assets/images/artifact-photos/ffdc-1.png">
@@ -55,7 +55,7 @@
         </figure>
     </div>
     <h2>Challenges & Solutions</h2>
-    <div class="glass-effect section artifact-section artifact-challenges">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-challenges">
         <p>Most of the challenges I encountered were related to making certain elements accessible. This was the first project in which I took a deep dive into accessible elements.</p>
         <p>I used many resources to help guide decision making such as <a href="https://www.aditus.io/patterns/accordion/">Aditus’ guide on accessible accordion menus</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset%2520https:_developer.mozilla.org/en-US/docs/Web/HTML/Element/form">MDN’s documentation</a> on forms and inputs, and multiple sources for how to style radio buttons without the checkbox.</p>
         <figure class="figure-row-span">
@@ -65,7 +65,7 @@
         <p>You can check out <a href="https://github.com/alstdu/FurryFriendsDaycare">my GitHub repo’s</a> README to see more sources.</p>
     </div>
     <h2>Post-Course Additions</h2>
-    <div class="glass-effect section artifact-section artifact-extras">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-extras">
         <p>After the course was completed, I added some SEO markup to the HTML to practice implementing structured data markup and metadata.</p>
         <figure class="figure-row-span">
                 <img src="./assets/images/artifact-photos/ffdc-5.png">

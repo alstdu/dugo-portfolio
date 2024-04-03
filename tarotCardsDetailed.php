@@ -39,7 +39,7 @@
         </div>
     </div>
     <h2>Process</h2>
-    <div class="glass-effect section artifact-section artifact-process">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-process">
         <p>My goal for this project was to create a modern online Tarot Card Picker with my own card designs. Most
             online tarot card picker websites are not very usable due to the number of ads and other pop ups.
             They can be cluttered, and the design isn’t optimal for everyone to use.
@@ -63,7 +63,7 @@
             <figcaption>A mini brainstorm of tasks</figcaption>
         </figure>
     </div>
-    <div class="glass-effect section artifact-section artifact-challenges">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-challenges">
         <h2>Challenges & Solutions</h2>
         <p>Since I admittedly started this a bit later than anticipated, I had to reduce the scope for the sake of deadlines. 
             However, I do plan to upgrade this eventually, and have even started working through the code. I went
@@ -77,7 +77,7 @@
         </figure>
         <p>post editing note: I actually did take some time to understand this! However, I ended up not needing it.</p>
     </div>
-    <div class="glass-effect section artifact-section artifact-extras">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-extras">
         <h2>Iteration 2</h2>
         <p>Under Construction!</p>
     </div>
