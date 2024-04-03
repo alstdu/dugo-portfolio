@@ -36,23 +36,22 @@
                 Prototyping, User Stories & Scenarios, Empathy Mapping</p>
         </div>
     </div>
-    <h2>Process V.1</h2>
+    <h2>Process Phase 1</h2>
     <div class="glass-effect section artifact-section artifact-section-grid artifact-process">
         <p>I knew I wanted to do an ELD project because it is the type of software my partner and in-laws create for
             their business. I thought it would be a great way to challenge myself to do something outside the norm of
             what other apps people are creating. It also helps to have someone review my work to make sure the features
             and layout make sense to the end user. I hope to create a working prototype of this app next term in the app
             development class. There are still a few features that I don’t know how to implement in Figma that I hope to
-            implement when I build the app next term.</p>
+            implement when I build the app next term. <br><br> I started out by creating a User Persona that I could use to guide the creation of my app.
+            I came up with Michael, 52, who is an owner operator in BC. Frankly,
+            he wishes drivers were still using paper and just wants an app that does the job and is easy to navigate.
+            I also created an empathy map and journey map before beginning the User Flow.</p>
         <figure>
             <img src="./assets/images/artifact-photos/ilog-1.png">
             <figcaption>User Persona, Michael</figcaption>
         </figure>
-        <p>I started out by creating a User Persona that I could use to guide the creation of my app.
-            I came up with Michael, 52, who is an owner operator in BC. Frankly,
-            he wishes drivers were still using paper and just wants an app that does the job and is easy to navigate.
-            I also created an empathy map and journey map before beginning the User Flow.
-        </p>
+        <p></p>
         <figure>
             <img src="./assets/images/artifact-photos/ffdc-2.png">
             <figcaption>User Flow</figcaption>
