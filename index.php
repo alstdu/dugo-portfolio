@@ -71,9 +71,6 @@
                 </p>
             </div>
         </div>
-        <div class="gradient-border">
-            <div class="page-scroll-button"><a href="#mySkills">My Skills</a></div>
-        </div>
     </section>
     <section id="mySkills">
         <div class="canvas-container">
