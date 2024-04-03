@@ -20,15 +20,11 @@ header
     font-family: fonts.$main-font
     $border-width: 5px
     $border-radius: 40px
-    padding:
-        left: 10em
-        right: 10em
     .gradient-border
         background: linear-gradient(colors.$button-accent1, colors.$button-accent2)
         margin: .5em
         border-radius: $border-radius
         padding: $border-width
-        width: calc( 7.5em + #{$border-width} )
         .artifact-keywords
             border-radius: $border-radius
             padding: 0.5em 1em
@@ -70,9 +66,12 @@ header
     img
         margin: .5em
             margin-bottom: 1em
-        filter: drop-shadow(0 0 2rem colors.$ffdc-color)
     h1
         margin-bottom: 0
+
+.ilog-header-image
+    filter: drop-shadow(0 0 2rem colors.$ilog-color)
+
 
 .artifact-buttons
     a
