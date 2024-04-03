@@ -37,7 +37,7 @@
         </div>
     </div>
     <h2>Process V.1</h2>
-    <div class="glass-effect section artifact-section artifact-process">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-process">
         <p>I knew I wanted to do an ELD project because it is the type of software my partner and in-laws create for
             their business. I thought it would be a great way to challenge myself to do something outside the norm of
             what other apps people are creating. It also helps to have someone review my work to make sure the features
@@ -81,7 +81,7 @@
         </figure>
     </div>
     <h2>Challenges & Solutions</h2>
-    <div class="glass-effect section artifact-section artifact-challenges">
+    <div class="glass-effect section artifact-section artifact-section-grid artifact-challenges">
         <p>The main issues I had were in the testing phase. As I illustrate in my report,
             the first issue I encountered was that mostly every person tested my prototype on mobile.
             Maze, unfortunately, is not very mobile friendly. I let my testers know to use desktop if possible,
@@ -102,16 +102,30 @@
         </p>
     </div>
     <h2>Prototype</h2>
-    <div class="glass-effect section artifact-section" style="display: flex;">
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin: auto; aspect-ratio: 0.5; max-height: 90vh;"
+    <div class="glass-effect section artifact-section" style="display: flex">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin: auto; aspect-ratio: 0.41; width: 38vh;"
             width="100%" height="100%"
             src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fs130zms78A6kuSolnLWPo5%2FPhase-4%3Ftype%3Ddesign%26t%3DIgscmCfAMRJf539U-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26node-id%3D1-4%26starting-point-node-id%3D1%253A4%26mode%3Ddesign"
             allowfullscreen></iframe>
     </div>
-    <div class="artifact-buttons-container">
-        <button class="artifact-buttons"><a href="https://www.canva.com/design/DAFvfrS4J3o/WU0MQfaqAybuFiGaCly3wA/view?utm_content=DAFvfrS4J3o&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">Report</a></button>
+    <h2>Report</h2>
+    <div class="glass-effect section artifact-section">
+        <div style="position: relative; width: 100%; height: 0; padding-top: 129.4118%;
+    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+    border-radius: 8px; will-change: transform; margin-left: auto; margin-right:auto;">
+            <iframe loading="lazy"
+                style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFvfrS4J3o&#x2F;nxzICpGtPtYtypATzBV_4Q&#x2F;view?embed"
+                allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+        </div>
     </div>
-        <?php include_once ("backtothetop.html"); ?>
-        <script src="./scripts/projectDetailed.js"></script>
+    <div class="artifact-buttons-container">
+        <button class="artifact-buttons"><a
+                href="https://www.canva.com/design/DAFvfrS4J3o/WU0MQfaqAybuFiGaCly3wA/view?utm_content=DAFvfrS4J3o&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                target="_blank">Report</a></button>
+    </div>
+    <?php include_once ("backtothetop.html"); ?>
+    <script src="./scripts/projectDetailed.js"></script>
 </body>
 </html>
