@@ -45,7 +45,7 @@
             development class. There are still a few features that I don’t know how to implement in Figma that I hope to
             implement when I build the app next term.</p>
         <figure>
-            <img src="./assets/images/artifact-photos/ffdc-1.png">
+            <img src="./assets/images/artifact-photos/ilog-1.png">
             <figcaption>User Persona, Michael</figcaption>
         </figure>
         <p>I started out by creating a User Persona that I could use to guide the creation of my app.
