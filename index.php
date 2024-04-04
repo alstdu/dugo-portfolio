@@ -29,7 +29,7 @@
         <div id="canvasTextContainer" class="glass-effect">
             <h2 class="home-header"><span>Hi, I'm Lexi!</span></h2>
             <p class="home-header-subtext">A <span class="highlight">Front End Dev</span> and <span class="highlight">New Media Designer</span></p>
-            <p class="home-header-mini-text">Who loves any reason to buy bubble tea</p>
+            <p class="home-header-mini-text">Who will take any opportunity to buy bubble tea</p>
             <div class="indicator"></div>
         </div>
     </section>
