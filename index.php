@@ -27,7 +27,7 @@
     </header>
     <section id="home">
         <div id="canvasTextContainer" class="glass-effect">
-            <h2 class="home-header"><span>Hi! I'm Lexi Dugo</span></h2>
+            <h2 class="home-header"><span>Hi, I'm Lexi!</span></h2>
             <p class="home-header-subtext">A Front End Dev and New Media Designer</p>
             <div class="indicator"></div>
         </div>
