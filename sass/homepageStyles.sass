@@ -27,6 +27,46 @@ html
         padding-left: 0
         font-size: 2.25rem
         font-family: fonts.$accent-font
+
+.highlight
+    position: relative
+    display: inline-block
+    overflow: hidden
+    vertical-align: top // https://stackoverflow.com/questions/30182800/css-overflowhidden-with-displayinline-block
+
+.highlight::before
+    content: ""
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(160, 223, 255, 0.5)
+    transform: translateX(-100%)
+    animation: slideInLeft 2s ease-in-out forwards
+    animation-delay: 1s
+    // can't animate the gradient yet sigh
+    // https://css-tricks.com/the-state-of-changing-gradients-with-css-transitions-and-animations/
+    // background: linear-gradient(to right, yellow 0%, transparent 0)
+    // animation: highlightFromLeft 1s ease-out infinite
+    // forwards - infinite for testing
+    // animation-delay: 1s
+
+.highlight:nth-child(2)::before
+    animation-delay: 3s
+    background: rgba(255, 231, 160, 0.5)
+
+// @keyframes highlightFromLeft
+//     to
+//         background-image: linear-gradient(to right, yellow 100%, transparent 0)
+
+@keyframes slideInLeft
+    0%
+        transform: translateX(-100%)
+    100%
+        transform: translateX(0)
+
 #home, #projects, #mySkills
     min-height: 500px
     display: flex
