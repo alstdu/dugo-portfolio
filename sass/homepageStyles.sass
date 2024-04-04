@@ -32,7 +32,7 @@ html
     .home-header-mini-text
         text-align: left
         padding:
-            top: .5em
+            top: 1em
             left: 0
         margin:
             right: .5em
@@ -125,7 +125,8 @@ html
     // width: calc( 12em + #{5px} )
 
 .circle-container
-    position: absolute
+    position: fixed
+    transform: rotate(90deg)
     z-index: -1
     left: 0
     width: 100%
@@ -140,7 +141,7 @@ html
         border-radius: 50%
         filter: blur(50px)
     .orange-circle1
-        background-color: #F8B266
+        background-color: #f8b266
         left: 0
         transform: translateX(-50%)
     .orange-circle2
@@ -277,6 +278,7 @@ $icon-margin: 5px
         margin-top: 0
         margin-bottom: 1em
     .circle-container
+        transform: rotate(0deg)
         height: 800px // absolute children treat overflow-x like overflow
         padding-top: 100px
         .circle
