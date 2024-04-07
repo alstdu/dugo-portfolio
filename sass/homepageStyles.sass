@@ -126,32 +126,33 @@ html
 
 .circle-container
     position: fixed
-    transform: rotate(90deg)
     z-index: -1
     left: 0
+    right: 0
+    top: 0
+    bottom: 0
     width: 100%
     overflow-x: hidden
-    padding-top: 200px // give the blur room
-    height: 800px // absolute children treat overflow-x like overflow
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
     .circle
-        position: absolute
-        z-index: -1
-        width: 300px
-        height: 300px
+        flex-basis: 300px
+        aspect-ratio: 1
+        flex-shrink: 1
         border-radius: 50%
         filter: blur(50px)
+        &:nth-child(1)
+            transform: translateY(-50%)
+        &:nth-last-child(1)
+            transform: translateY(50%)            
     .orange-circle1
-        background-color: #f8b266
-        left: 0
-        transform: translateX(-50%)
+        background-color: #F8B266
     .orange-circle2
         background-color: #F8B266
-        right: 0
-        transform: translateX(50%)
     .aqua-circle
         background-color: #A0DEEA
-        left: 50%
-        transform: translateX(-50%)
 
 .arrow-icon-ffdc
     color: colors.$ffdc-color
@@ -278,12 +279,13 @@ $icon-margin: 5px
         margin-top: 0
         margin-bottom: 1em
     .circle-container
-        transform: rotate(0deg)
-        height: 800px // absolute children treat overflow-x like overflow
-        padding-top: 100px
+        flex-direction: row
         .circle
-            width: 500px
-            height: 500px
+            flex-basis: 500px
+            &:nth-child(1)
+                transform: translateX(-50%)
+            &:nth-last-child(1)
+                transform: translateX(50%)
     #home
         min-height: 500px
         #canvasTextContainer
@@ -341,34 +343,15 @@ $icon-margin: 5px
         .home-header-mini-text
             text-align: right
 
-    .circle-container
-        .orange-circle1
-            background-color: #F8B266
-            left: 0
-            transform: translateX(0)
-        .orange-circle2
-            background-color: #F8B266
-            right: 0
-            transform: translateX(0)
-            z-index: -2
-        .aqua-circle
-            background-color: #A0DEEA
-            left: 50%
-            transform: translateX(-50%)
-
+    .circle-container .circle
+        &:nth-child(1)
+            transform: translateX(-25%)
+        &:nth-last-child(1)
+            transform: translateX(25%)
 
 @media screen and ( min-width: 1800px )
-    .circle-container
-        .orange-circle1
-            background-color: #F8B266
-            left: 15%
-            transform: translateX(0)
-        .orange-circle2
-            background-color: #F8B266
-            right: 15%
-            transform: translateX(0)
-            z-index: -2
-        .aqua-circle
-            background-color: #A0DEEA
-            left: 50%
-            transform: translateX(-50%)
+    .circle-container .circle
+        &:nth-child(1)
+            transform: none
+        &:nth-last-child(1)
+            transform: none
