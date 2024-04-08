@@ -70,7 +70,7 @@
     </div>
     <div class="artifact-buttons-container">
         <button class="artifact-buttons"><a href="https://github.com/alstdu/dugo-dnd-tools" target="_blank">View Code</a></button>
-        <button class="artifact-buttons"><a href="https://dndtools.lexidugo.com" target="_blank">Live Site</a></button>
+        <button class="artifact-buttons"><a href="https://dnd-tools.lexidugo.com" target="_blank">Live Site</a></button>
     </div>
     <?php include_once("backtothetop.html"); ?>
     <script src="./scripts/projectDetailed.js"></script>
