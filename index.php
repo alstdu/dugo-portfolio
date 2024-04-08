@@ -58,7 +58,7 @@
             <div id="onlineTarotSection">
                 <img class="onlinetarot-preview project-preview" src="./assets/images/onlinetarot-preview.svg" alt="preview of Online Tarot Card Project">
                 <h3>Online Tarot</h3>
-                <p>An online tarot card picker that allows you to do one, two, and three card spreads. It features a deck that I created myself, and shows keywords for each.
+                <p>An online tarot card picker that features a deck that I created myself, and shows keywords for each. Works with upright and reversed cards.
                 <br>
                 <span class="arrow-icon-onlinetarot">&#8594; <a href="./tarotCardsDetailed.php">Check It Out</a></span> 
                 </p>
