@@ -85,7 +85,7 @@
             <h3>UX/UI</h3>
             <p>User Testing, Figma Prototyping, User Flow, Wireframing, Empathy Mapping, Usability Testing, User Experience Research, Lean UX</p>
             <h3>Project Management</h3> 
-            <p>Team Leadership, Waterfall, Agile, User Stories, Trello, Time Management</p>
+            <p>Team Leadership, Waterfall & Agile, Trello, Time Management</p>
         </div>
     </section>
     <div class="social-sidebar">
