@@ -27,7 +27,7 @@
     <div class="artifact-header">
         <div class="artifact-image-title">
             <h1>Furry Friends Daycare</h1>
-            <img src="./assets/images/ffdc-preview.svg">
+            <img class="ffdc-header-image" src="./assets/images/ffdc-preview.svg">
         </div>
         <div class="glass-effect artifact-stats">
             <p><span class="artifact-stats-headers">Time:</span> ~17 Hours (my contribution)</p>

@@ -27,7 +27,7 @@
     <div class="artifact-header">
         <div class="artifact-image-title">
             <h1>D&D Tools</h1>
-            <img src="./assets/images/dndtools-preview.svg">
+            <img class="dnd-header-image" src="./assets/images/dndtools-preview.svg">
         </div>
         <div class="glass-effect artifact-stats">
             <p><span class="artifact-stats-headers">Time: </span>~ 32 Hours</p>

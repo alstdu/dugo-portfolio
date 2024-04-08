@@ -27,7 +27,7 @@
     <div class="artifact-header">
         <div class="artifact-image-title">
             <h1>Online Tarot</h1>
-            <img src="./assets/images/onlinetarot-preview.svg">
+            <img class="tarot-header-image" src="./assets/images/onlinetarot-preview.svg">
         </div>
         <div class="glass-effect artifact-stats">
             <p><span class="artifact-stats-headers">Time:</span><br>
