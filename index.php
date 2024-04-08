@@ -44,7 +44,7 @@
                 <h3>D&D Tools</h3>
                 <p>A collection of D&D tools including a spells table, a point buy calculator and a 3D dice roller. Created using HTML, CSS, JS & packaged with Webpack.
                 <br>
-                <span class="arrow-icon-dndtools">&#8594; <a href="">Check It Out</a></span>
+                <span class="arrow-icon-dndtools">&#8594; <a href="./dndDetailed.php">Check It Out</a></span>
                 </p>
             </div>
             <div id="ilogSection">
