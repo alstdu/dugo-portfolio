@@ -60,9 +60,8 @@
         <p>Our New Media Marketing class taught us about the importance of SEO and how crawlers search webpages for different types of data. We also learned how to make a marketing plan from start to finish.</p>
     </div>
     <div class="artifact-buttons-container">
-        <button class="artifact-buttons">Sheets</button>
-        <button class="artifact-buttons">View Code</button>
-        <button class="artifact-buttons">Live Site</button>
+        <button class="artifact-buttons"><a href="https://github.com/alstdu/dugo-dnd-tools" target="_blank">View Code</a></button>
+        <button class="artifact-buttons"><a href="https://dndtools.lexidugo.com" target="_blank">Live Site</a></button>
     </div>
 </body>
 </html>
