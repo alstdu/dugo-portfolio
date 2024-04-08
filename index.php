@@ -81,9 +81,9 @@
             <h3>Development</h3>
             <p>HTML, CSS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, QA, Android Studio</p>
             <h3>New Media</h3>
-            <p>Photoshop, Illustrator, Figma, Social Media Networking & Marketing, SEO, Content Creation, InDesign, Dimension</p>
+            <p>Photoshop, Illustrator, Figma, Social Media Networking & Marketing, SEO, Content Creation, Adobe InDesign, Adobe Dimension, Adobe Aero, Adobe After Effects</p>
             <h3>UX/UI</h3>
-            <p>User Testing, Figma Prototyping, User Flow, Wireframing, Empathy Mapping</p>
+            <p>User Testing, Figma Prototyping, User Flow, Wireframing, Empathy Mapping, Usability Testing, User Experience Research</p>
             <h3>Project Management</h3> 
             <p>Team leadership, waterfall, agile, user stories, Trello, Time Management</p>
         </div>
