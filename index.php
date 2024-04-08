@@ -79,7 +79,7 @@
         </div>
         <div class="glass-effect skills-list">
             <h3>Development</h3>
-            <p>HTML, CSS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, QA, Android Studio</p>
+            <p>HTML, CSS, SASS, JavaScript, JQuery, PHP, MySQL, GitHub, Webpack, React JS, Spline</p>
             <h3>New Media</h3>
             <p>Photoshop, Illustrator, Figma, Social Media Networking & Marketing, SEO, Content Creation, Adobe InDesign, Adobe Dimension, Adobe Aero, Adobe After Effects</p>
             <h3>UX/UI</h3>
