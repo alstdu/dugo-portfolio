@@ -31,11 +31,9 @@
         </div>
         <div class="glass-effect artifact-stats">
             <p><span class="artifact-stats-headers">Time:</span><br>
-                Tarot Card Design: ~ 3 hours<br>
-                Development: ~ 6 hours<br>
-                Before School Learning: ~6 hours</p>
+                ~ 15 hours</p>
             <p><span class="artifact-stats-headers">Languages:</span> HTML, CSS, JS</p>
-            <p><span class="artifact-stats-headers">Skills:</span> blah blah, Canva</p>
+            <p><span class="artifact-stats-headers">Skills:</span> JavaScript Loops, JavaScript Objects and Arrays, CSS, Canva</p>
         </div>
     </div>
     <h2>Process</h2>
@@ -53,18 +51,18 @@
             pretty cool for myself and others.
         </p>
         <figure>
-            <img src="">
+            <img src="./assets/images/artifact-photos/tarot-1.png">
             <figcaption>This was my original code!</figcaption>
         </figure>
         <p>I created a brainstorm of things I would need to do to improve the code and account for the scope increase
             from the original.</p>
         <figure>
-            <img src="">
+            <img src="./assets/images/artifact-photos/tarot-2.png">
             <figcaption>A mini brainstorm of tasks</figcaption>
         </figure>
     </div>
+    <h2>Challenges & Solutions</h2>
     <div class="glass-effect section artifact-section artifact-section-grid artifact-challenges">
-        <h2>Challenges & Solutions</h2>
         <p>Since I admittedly started this a bit later than anticipated, I had to reduce the scope for the sake of deadlines. 
             However, I do plan to upgrade this eventually, and have even started working through the code. I went
             from 1, 2 or 3 cards to just 1 card for now. I’m sure as I'm continuing iteration 2, I will have an entirely new set of
@@ -72,18 +70,18 @@
             which will be talked about below this section once it's complete!
         </p>
         <figure>
-            <img src="">
+            <img src="./assets/images/artifact-photos/tarot-3.png">
             <figcaption>The monstrocity in question</figcaption>
         </figure>
         <p>post editing note: I actually did take some time to understand this! However, I ended up not needing it.</p>
     </div>
+    <h2>Iteration 2</h2>
     <div class="glass-effect section artifact-section artifact-section-grid artifact-extras">
-        <h2>Iteration 2</h2>
         <p>Under Construction!</p>
     </div>
     <div class="artifact-buttons-container">
         <button class="artifact-buttons"><a href="https://github.com/alstdu/dugo-tarot-card-picker" target="_blank">View Code</button>
-        <button class="artifact-buttons">Live Site</button>
+        <button class="artifact-buttons"><a href="https://onlinetarot.lexidugo.com" target="_blank">Live Site</a></button>
     </div>
     <?php include_once("backtothetop.html"); ?>
     <script src="./scripts/projectDetailed.js"></script>
